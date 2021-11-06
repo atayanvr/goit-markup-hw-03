@@ -1,0 +1,24 @@
+/* section buttons */
+
+.button-bt{
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.6;
+letter-spacing: 0.03em;
+text-align: center;
+
+}
+
+.list-description{
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+text-align: left;
+}
+
+
+.button-bt{
+    cursor: pointer;
+}
+

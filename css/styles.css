@@ -4,6 +4,7 @@
     --primary-white-color: #FFFFFF;
     --accent-color: #2196F3;
     --background-color: #2F303A;
+    --background-button: #F5F4FA;
 }
 
 body{
@@ -13,6 +14,11 @@ body{
     line-height: 1.87;
     letter-spacing: 0.03em;
     text-align: left;
+}
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
@@ -40,6 +46,11 @@ text-decoration: none;
 }
 
 /* Site-nav */
+
+.header{
+    border-bottom: 1px solid #ECECEC ;
+    padding-bottom: 15px;
+}
 
 .container{
     width: 1230px;
@@ -121,8 +132,7 @@ text-decoration: none;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
+
 }
 
 .hero-title{
@@ -221,11 +231,13 @@ letter-spacing: 0.03em;
 
 .team{
     display: flex;
+    padding-left: 0;
   
 }
 
 .team-item{
     margin: 15px;
+  
 }
 
 
@@ -244,7 +256,8 @@ button{
 
 button:hover{
     background-color: var(--accent-color);
-    color: var(--primary-white-color)
+    color: var(--primary-white-color);
+    
 }
 
 /* Footer */
@@ -254,8 +267,8 @@ button:hover{
 }
 
 .footer-container{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .logo.footer > span{

@@ -1,13 +1,22 @@
 /* section buttons */
 
 .button-bt{
+    background-color: var(--background-button);
     font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.6;
 letter-spacing: 0.03em;
-text-align: center;
 
+text-align: center;
+cursor: pointer;
+
+margin-right: 8px;
+height: 38px;
+padding-left: 22px;
+padding-right: 22px;
+border: 0;
+border-radius: 4px;
 }
 
 .list-description{
@@ -18,7 +27,36 @@ text-align: left;
 }
 
 
-.button-bt{
-    cursor: pointer;
+
+
+/* Section examples */
+
+.button{
+    display: flex;
 }
 
+.button.list{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+.examples h1{
+    display: none;
+}
+
+.main-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-item{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.main-item:nth-child(3n+3){
+    margin-right: 0;
+}

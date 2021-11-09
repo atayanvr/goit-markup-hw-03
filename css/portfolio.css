@@ -54,9 +54,18 @@ text-align: left;
 .main-item{
     margin-right: 30px;
     margin-bottom: 30px;
-    border-bottom: 1px solid #EEEEEE;
+    
+    
 }
 
 .main-item:nth-child(3n+3){
     margin-right: 0;
+}
+
+.main-wrap{
+    padding-left: 15px;
+    padding-top: 10px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }

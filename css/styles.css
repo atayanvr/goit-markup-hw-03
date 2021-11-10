@@ -59,14 +59,14 @@ text-decoration: none;
 
 .header{
     border-bottom: 1px solid #ECECEC ;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .container{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 24px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -135,6 +135,8 @@ text-decoration: none;
 
 .hero{
     background-color: var(--background-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-container{
@@ -189,7 +191,12 @@ cursor: pointer;
 }
 
 .list-work > li{
-    margin: 25px;
+    width: 265px;
+    margin-right: 25px;
+}
+
+.list-work > li:last-child{
+    margin-right: 0;
 }
 
 .section-description{
@@ -211,11 +218,17 @@ text-transform: uppercase;
 .section-team{
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 47px;
+    
+}
+
+.section-do{
+    padding-top: 47px;
+    padding-bottom: 94px;
 }
 
 .section-team{
     background-color: var(--background-button);
+    padding-bottom: 94px;
 }
 
 .list-do{
@@ -228,9 +241,12 @@ text-transform: uppercase;
     
 }
 
-.item-do{
-    
-    margin: 15px;
+.item-do{  
+    margin-right: 30px;
+}
+
+.item-do:last-child{
+    margin-right: 0;
 }
 
 
@@ -259,7 +275,11 @@ letter-spacing: 0.03em;
 .team{
     display: flex;
     padding-left: 0;
-  
+}
+
+.team-descr{
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .team-item{
@@ -267,13 +287,13 @@ letter-spacing: 0.03em;
 }
 
 .team-wrap{
-    padding-top: 15px;
+    margin-top: 15px;
     text-align: center;
 }
 
 .team-name{
     margin: 0;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -311,6 +331,10 @@ button:hover{
     color: var(--primary-white-color);
 }
 
+.logo.footer{
+    padding: 0;
+}
+
 .adress{
     color: var(--primary-white-color);
     font-size: 14px;
@@ -318,7 +342,7 @@ button:hover{
     letter-spacing: 0.03em;
     font-style: normal;
     margin: 0;
-    padding-top: 15px;
+    margin-top: 20px;
 }
 
 .footer-link{
@@ -328,6 +352,7 @@ line-height: 1.71px;
 letter-spacing: 0.03em;
 text-decoration: none;
 font-style: normal;
+margin-top: 29px;
 }
 
 .footer-link:hover,

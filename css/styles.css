@@ -202,6 +202,8 @@ cursor: pointer;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+margin: 0;
+margin-top: 10px;
 }
 
 .section-title{
@@ -272,7 +274,7 @@ letter-spacing: 0.03em;
 }
 
 .team-title{
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .team{
@@ -281,8 +283,9 @@ letter-spacing: 0.03em;
 }
 
 .team-descr{
+    margin: 0;
     margin-top: 10px;
-    margin-bottom: 30px;
+    
 }
 
 .team-item{
@@ -294,13 +297,14 @@ letter-spacing: 0.03em;
 }
 
 .team-wrap{
-    margin-top: 15px;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-name{
     margin: 0;
-    margin-top: 10px;
+    
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -359,7 +363,7 @@ line-height: 1.71px;
 letter-spacing: 0.03em;
 text-decoration: none;
 font-style: normal;
-padding-bottom: 9px;
+margin-bottom: 9px;
 }
 
 
